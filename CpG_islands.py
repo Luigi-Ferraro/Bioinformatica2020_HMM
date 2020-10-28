@@ -44,7 +44,7 @@ def find_CpG_islands_example2(gene):
     M = pd.DataFrame(m, columns = S, index = S)
 
     # Matrice probabilita' di emissione
-    d = np.diag(np.ones(4))
+    d = np.eye(4)
     E = pd.DataFrame(np.concatenate([d,d]), columns = SY, index = S)
 
     # Probabilita' iniziali

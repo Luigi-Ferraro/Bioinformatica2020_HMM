@@ -39,7 +39,7 @@ tab = pd.crosstab(o0, m, rownames = ['o0'], colnames = ['m'])
 
 
 
-
+'''
 
 
 # leggo il recettore dell'insulina
@@ -91,3 +91,4 @@ o0 = np.array(["E"] * 33 + ["M"] * (57 - 34 + 1) + ["C"])
 m[-1] = "C"
 somma = np.sum(o0 == m) / len(m)
 tab = pd.crosstab(o0, m, rownames = ['o0'], colnames = ['m'])
+'''
